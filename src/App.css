@@ -1,0 +1,52 @@
+body {
+  background-color: #2d2d2d;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.employee-details,
+.attendance-history {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+}
+
+.attendance-summary .summary-item {
+  text-align: center;
+}
+
+.attendance-summary .summary-item p {
+  font-size: 24px;
+  margin: 0;
+}
+
+.history-controls button {
+  margin-right: 5px;
+  /* margin-rigth:  10px; ; */
+}
+
+.attendance-records .record {
+  background-color: #333;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.attendance-records .record p {
+  margin: 0;
+}
+
+.attendance-records .record.bg-secondary {
+  border-left: 5px solid #00c853;
+}
+
+.attendance-records .record.bg-warning {
+  border-left: 5px solid #ffab00;
+}
+
+.attendance-records .record.bg-danger {
+  border-left: 5px solid #d50000;
+}
